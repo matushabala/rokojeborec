@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #B2DBBF;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 0;
+  background: #70c1b3;
+  padding: 10px;
+}

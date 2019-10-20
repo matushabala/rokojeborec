@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EAF2EF;
+	font-family: 'Century Gothic', sans-serif;
+	width: 100%;
+}
+
+h1 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+	padding-bottom: 10px;
+}
+
+.vrch {
+	position: relative;
+}
+
+.logo {
+	width: 30%;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.team {
+	background-color: #008DD5;
+	height: max-content;
+	text-align: center;
+}
+
+.team p {
+	padding-bottom: 15px;
+	color: black;
+	font-size: 20px;
+}
+
+.clenovia {
+	background-color: #008DD5;
+	min-height: 365px;
+	height: max-content;
+}
+
+.clenovia img {
+	max-width: 250px;
+	width: 15.64%;
+	position: absolute;
+	left: 150px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.clenovia h2 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 450px;
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+	font-size: 35px;
+}
+
+.clenovia h3 {
+	padding-left: 450px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 22px;
+	color: #071013;
+}
+
+.clenovia p {
+	padding-left: 450px;
+	padding-right: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: 'Century Gothic', sans-serif;
+	color: black;
+	font-size: 18px;
+}
+
+#horny-footer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#horny-footer ul {
+	padding-top: 10px;
+	text-align: center;
+	list-style: none;
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 22px;
+	font-size: 19px;
+}
+
+#spodny-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+
+#spodny-footer p {
+	font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	text-align: center;
+}
